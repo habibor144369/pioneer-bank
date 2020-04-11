@@ -7,7 +7,77 @@
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1> This is my pioneer bank</h1>
+     <div id="login-area">
+         <h1 class="tag text-center">Welcome to pioneer bank</h1>
+        <div class="mama">
+             <h3>Login Here</h3>
+             <br>
+             <input class="form-control" type="text" placeholder="Name">
+             <br>
+             <input class="form-control" type="password" placeholder="Password">
+             <br>
+             <button id="login" class="btn btn-info">Enter</button>
+        </div>
+    </div>
+
+
+    <div id="transaction">
+        <h2 class="movie text-center">Transaction Area <hr></h2>
+        <div class="row">
+            <div class="col-md-4">
+               <div class="deposit data">
+                <h5>Deposit</h5>
+                <h2>$00</h2>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="withdraw data">
+                <h5>Withdraw</h5>
+                <h2>$00</h2>
+               </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance data">
+                    <h5>Balance</h5>
+                <h2>$1250</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jeep">
+                    <h4>Deposit</h4>
+                    <input class="form-control" type="text" placeholder="$ amount you want to deposit"><br>
+                    <button class="btn btn-info sad">Deposit</button>
+                 </div>
+            </div>
+            <div class="col-md-6">
+                    <div class="jeep">     
+                    <h4>Withdraw</h4>
+                    <input class="form-control" type="text" placeholder="$ amount you want withdraw"><br>
+                    <button class="btn btn-info sad">Withdraw</button>
+                </div>
+            </div>
+        </div>
+   </div>
+
+
+
+    <script>
+        const loginBtn = document.getElementById("login");
+        loginBtn.addEventListener("click", function(){
+           const loginArea = document.getElementById("login-area");
+           loginArea.style.display = "none";
+           const Transaction = document.getElementById("transaction");
+           transaction.style.display = "block";
+        })
+    </script>
+
+    
 </body>
 </html>
+

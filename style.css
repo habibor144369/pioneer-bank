@@ -1,0 +1,65 @@
+body{
+  padding:  20px 150px;  
+}
+.tag{
+    color: fuchsia;
+    padding: 40px;
+}
+.mama button{
+    height: 42px;
+    width: 100px;
+}
+.mama{
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 16px rgb(192, 189, 189);
+}
+.movie{
+    color: rgb(20, 166, 192);
+}
+.submit-area{
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 16px rgb(192, 189, 189);
+}
+#transaction{
+    display: none;
+    box-shadow: 5px 5px 20px rgb(230, 228, 221); 
+    padding: 60px 70px;
+}
+.row{
+    margin-top:60px ;
+}
+.data{
+    color: rgb(250, 247, 242);
+}
+.deposit{
+   background-color: hotpink;
+   padding:10px 30px;
+   border-radius: 10px;
+}
+.withdraw{
+    background-color: lightskyblue;
+    padding:10px 30px;
+    border-radius: 10px;
+}
+
+.balance{
+    background-color: rgb(253, 80, 239);
+    padding:10px 30px;
+    border-radius: 10px;
+}
+.jeep{
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(233, 225, 225);
+}
+.sad{
+    color: rgb(247, 243, 243);
+}
+.jeep h4{
+    color: darksalmon;
+}
+.mama h3{
+    color: dodgerblue;
+}
